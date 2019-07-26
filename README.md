@@ -40,7 +40,7 @@
 * 交互界面
     * 套用了https://github.com/zhaoyingjun/chatbot中的聊天机器人界面
     * 在*app.py*中配置监听端口，运行后通过浏览器访问
-    * 预览：
+    * 预览：![image](https://user-images.githubusercontent.com/25412051/61956626-1a506900-aff0-11e9-84dc-b83967581235.JPG)
     
 ### 模型介绍
 * 提取实体模型
