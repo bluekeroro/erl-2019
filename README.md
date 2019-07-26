@@ -35,10 +35,10 @@
 * 执行
     * 运行*ml/pre_process.py*对数据进行简单的预处理，删掉一些实体重合的数据
     * 运行*ml/data_reduce.py*打上BIO标签
-    * 运行*ml/my_bert_crf_model.py*训练提取实体模型
-    * 运行*ml/my_bert_findId.py*运行消歧模型，从kb_data中找到对应的kb_id
+    * 运行*ml/my_bert_crf_model.py*训练提取实体模型，自行设置模型的保存路径和加载路径
+    * 运行*ml/my_bert_findId.py*运行消歧模型，从kb_data中找到对应的kb_id，自行设置模型的保存路径和加载路径
 * 交互界面
-    * 套用了https://github.com/zhaoyingjun/chatbot中的聊天机器人界面
+    * 套用了https://github.com/zhaoyingjun/chatbot 中的聊天机器人界面
     * 在*app.py*中配置监听端口，运行后通过浏览器访问
     * 预览：![image](https://user-images.githubusercontent.com/25412051/61956626-1a506900-aff0-11e9-84dc-b83967581235.JPG)
     
